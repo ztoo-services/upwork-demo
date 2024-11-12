@@ -13,9 +13,10 @@ conda create -n scraper-env python=3.11
 conda activate scraper-env
 ```
 ### 2. Install Requirements
-# Install dependencies
-pip install -r requirements.txt
 
+```bash
+pip install -r requirements.txt
+```
 ### 3. Configuration 
 
 Customize the following parameters:
@@ -25,6 +26,7 @@ Customize the following parameters:
  - file_path: Output file location
 
 ### 4. Running the Script 
-
+```bash
 # Run the script
 python scrape_permit_data.py
+```
