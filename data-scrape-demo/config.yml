@@ -1,0 +1,13 @@
+logging:
+  level: "INFO"
+
+browser:
+  arguments: "headless"
+
+scraping:
+  url: "https://permiteyes.us/concord/publicview.php"
+  table_id: "BuildingPublicHome"
+  wait_time: 10
+
+output:
+  file_path: "permits-concord.csv"
